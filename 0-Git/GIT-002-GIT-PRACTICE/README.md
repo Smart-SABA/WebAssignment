@@ -1,4 +1,5 @@
 # GIT-002-01
+
 - Initialize an empty git repository.
 - Create a file named first.txt.
 - Add first.txt to the staging area.
@@ -15,8 +16,6 @@
 - Push your code to same repository
 - Host the repository on github pages and attach the link here
 
-
-
 # GIT-002-02
 
 - Fork a repo - https://github.com/bitz1119/very-basic-resume
@@ -26,4 +25,4 @@
 - Commit your changes to git
 - Push the code on github
 - Host on github pages
-- Add the link to ```../../README.md``` hosted link section
+- Add the link to `../../README.md` hosted link section
