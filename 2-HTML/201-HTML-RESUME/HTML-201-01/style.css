@@ -1,1 +1,19 @@
 /* start your css here */
+
+* {
+  margin: 20px;
+  padding: 0%;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.header {
+  height: auto;
+  border: 1px solid black;
+}
+
+.skills {
+  padding-top: 4px;
+  border: 1px solid black;
+}
