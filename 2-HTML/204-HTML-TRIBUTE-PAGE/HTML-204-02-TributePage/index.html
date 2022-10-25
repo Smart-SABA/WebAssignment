@@ -7,69 +7,215 @@
     <title>Virat Kohli</title>
     <style>
       * {
-        margin: 10px;
+        margin: 5px;
         padding: 0;
         box-sizing: border-box;
-        text-align: center;
       }
-      img {
-        width: 30px;
-        height: 30px;
-      }
+
       .head {
         display: flex;
         padding-left: 40%;
-      }
-      .tweet {
-        display: flex;
-        padding-left: 45%;
+        text-align: center;
       }
 
-      .profile {
+      .head-para {
+        text-align: center;
+      }
+
+      .head img {
+        width: 30px;
+        height: 30px;
+      }
+      .tweet-head {
+        color: rgb(0, 127, 212);
+        text-align: center;
+      }
+
+      .container {
+        width: 400px;
+        height: 88vh;
+        margin: auto;
         border: 1px solid black;
+        position: relative;
+        /* background-color: blue; */
+      }
+      .main-heading {
+        display: flex;
+        border-bottom: 1px solid black;
+      }
+      .heading {
+        display: flex;
+        height: 6vh;
+        flex-basis: 90%;
+      }
+      .heading .id h6 {
+        margin: 0px 0px 0px 0px;
+      }
+      .id span {
+        color: rgb(0, 127, 212);
+      }
+      .id i {
+        color: rgb(0, 127, 212);
+      }
+      .heading img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      .heading2 {
+        color: rgb(0, 127, 212);
+        height: 6vh;
+        flex-basis: 10%;
+        text-align: center;
+      }
+
+      .main-img img {
+        border-radius: 10px;
+        margin: 20px;
+        width: 350px;
+        height: 400px;
+      }
+
+      .time {
+        display: flex;
+        border-bottom: 1px solid black;
+      }
+
+      .time i {
+        margin: auto;
+        padding-left: 180px;
+        /* margin: 0px 0px 0px 200px; */
+      }
+
+      .likes {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .replies h5 {
+        /* background-color: bisque; */
+        border-radius: 20px;
+        margin: auto;
+        height: 4vh;
+        text-align: center;
+        border: 1px solid black;
+      }
+
+      .image-container {
+        text-align: center;
+        margin: auto;
+      }
+
+      .image-container img {
+        width: 400px;
+        height: 500px;
+      }
+
+      .profile-video {
+        background-color: aqua;
+        width: 400px;
+        height: 500px;
+        margin: auto;
         display: flex;
       }
+
+      .profile-video-left img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
     </style>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <div class="head">
-        <img
-          src="https://cdn-icons-png.flaticon.com/128/6269/6269232.png"
-          alt="batball"
-        />
-        <h1>Virat Kohli</h1>
-        <img
-          src="https://cdn-icons-png.flaticon.com/128/6269/6269232.png"
-          alt="batball"
-        />
-      </div>
+    <div class="head">
+      <img
+        src="https://cdn-icons-png.flaticon.com/128/6269/6269232.png"
+        alt="batball"
+      />
+      <h1>Virat Kohli</h1>
+      <img
+        src="https://cdn-icons-png.flaticon.com/128/6269/6269232.png"
+        alt="batball"
+      />
+    </div>
+
+    <div class="head-para">
       <p>
         Virat Kohli is an Indian international cricketer and former captain of
         the India national cricket team. He plays for Delhi in domestic cricket
         and Royal Challengers Bangalore in the Indian Premier League as a
-        right-handed batsman. Kohli made his Test debut in 2011.
+        right-handed batsman. Kohli made his Test debut in 2011. Lorem ipsum
+        dolor sit, amet consectetur adipisicing elit.
       </p>
+    </div>
 
-      <div class="tweet">
-        <h2>Tweets</h2>
-        <img
-          src="https://cdn-icons-png.flaticon.com/128/8057/8057956.png"
-          alt="pegion"
-        />
-      </div>
+    <div class="tweet-head">
+      <h3>Tweets<i class="fa-solid fa-hashtag"></i></h3>
+    </div>
 
-      <div class="profile">
-        <img
-          src="data:image/jpeg;base64,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"
-          alt=""
-        />
-
-        <div>
-          <h6>Virat Kohli</h6>
-          <p>@iamkohli</p>
+    <div class="container">
+      <div class="main-heading">
+        <div class="heading">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt=""
+          />
+          <div class="id">
+            <h6>Virat Kohli <i class="fa-solid fa-circle-check"></i></h6>
+            <h6>@iamvkohli .<span>Follow</span></h6>
+          </div>
+        </div>
+        <div class="heading2">
+          <i class="fa-brands fa-twitter"></i>
         </div>
       </div>
+
+      <div class="main-img">
+        <img
+          src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202210/viratkohliindvpakt20wc-sixteen_nine.jpg?VersionId=zN5Gqwdv6SNOESeBBWj359Yq5f4uqcxX&size=690:388"
+          alt=""
+        />
+        <div class="time">
+          <h5>5:53 pm june .12 2022</h5>
+          <i class="fa-solid fa-circle-info"></i>
+        </div>
+      </div>
+
+      <div class="likes">
+        <h5><i id="heart" class="fa-solid fa-heart"></i> 301.1k</h5>
+        <h5><i id="msg" class="fa-solid fa-comment-dots"></i> Replies</h5>
+        <h5><i id="link" class="fa-solid fa-link"></i> copy link</h5>
+      </div>
+
+      <div class="replies">
+        <h5>Read 5.1K replies</h5>
+      </div>
     </div>
+
+    <div class="image-container">
+      <div class="images">
+        <h2>Images <i class="fa-brands fa-twitter"></i></h2>
+        <img
+          src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202210/viratkohliindvpakt20wc-sixteen_nine.jpg?VersionId=zN5Gqwdv6SNOESeBBWj359Yq5f4uqcxX&size=690:388"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="video-container"></div>
   </body>
 </html>
