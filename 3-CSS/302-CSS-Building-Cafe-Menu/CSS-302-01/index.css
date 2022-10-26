@@ -1,1 +1,58 @@
 /* start your css here */
+body {
+  background-image: url("https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=400");
+}
+
+.container {
+  width: 500px;
+  height: 650px;
+  margin: auto;
+  background-color: burlywood;
+}
+
+.heading {
+  text-align: center;
+  border-bottom: 3px solid brown;
+}
+
+.middle-coffee-head {
+  text-align: center;
+}
+
+.middle-coffee-head img {
+  width: 30px;
+  height: 30px;
+}
+
+.coffee-list li {
+  padding: 2px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.desert-list-div {
+  border-bottom: 3px solid brown;
+}
+.middle-desert-head {
+  text-align: center;
+}
+
+.middle-desert-head img {
+  width: 30px;
+  height: 30px;
+}
+
+.desert-list li {
+  padding: 2px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  text-align: center;
+}
+.footer a {
+  color: black;
+}
