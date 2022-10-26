@@ -1,1 +1,36 @@
 /* start your css here */
+.container {
+  border: 20px solid black;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+.main {
+  width: 200px;
+  height: 160px;
+  background-color: rgb(77, 5, 9);
+  margin: 50px 50px 50px 50px;
+  text-align: center;
+  padding: 3px;
+  border: 10px solid rgb(77, 5, 9);
+}
+
+.div1 {
+  background-color: rgb(255, 255, 145);
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.div2 {
+  background-color: rgb(165, 42, 42);
+  border: 1px solid black;
+  height: 50px;
+}
+
+.div3 {
+  background-color: red;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 10px 20px;
+}
