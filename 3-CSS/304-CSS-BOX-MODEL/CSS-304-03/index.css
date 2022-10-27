@@ -1,1 +1,13 @@
 /* start your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-name-price {
+  padding: 10px;
+}
+.img-name-price h5 {
+  color: gray;
+}
