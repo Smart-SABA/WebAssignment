@@ -1,1 +1,39 @@
 /* start your css here */
+.container {
+  display: flex;
+  background-color: rgb(66, 0, 66);
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+
+.container .head {
+  color: white;
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+
+.container .list {
+  margin: auto;
+  width: 70%;
+  text-decoration: none;
+}
+.container .list a {
+  padding: 30px;
+  text-decoration: none;
+  color: rgb(206, 204, 204);
+}
+.container .icons {
+  display: flex;
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .icons a {
+  color: white;
+}
