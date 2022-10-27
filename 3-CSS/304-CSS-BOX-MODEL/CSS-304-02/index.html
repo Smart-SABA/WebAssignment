@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    start your code here
+    <div class="container">
+      <div class="head">
+        <h3>Subscribe to MammothNews</h3>
+      </div>
+      <form action="post">
+        <div class="text-boxes">
+          <input type="text" placeholder="Name*" required />
+          <input type="text" placeholder="Surname*" required />
+          <input type="email" placeholder="Email*" required />
+          <input
+            type="text"
+            placeholder="Birthday"
+            onfocus="(this.type='date')"
+            onblur="(this.type='text')"
+          />
+          <div class="check">
+            <input
+              id="checkbox"
+              type="checkbox"
+              class="checkbox-size"
+              required
+            />
+            <label for="checkbox"
+              >I have read and accept the terms of conditions.
+              <a href="#">View our Terms and Conditions.</a>
+            </label>
+          </div>
+          <div class="button">
+            <button type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>

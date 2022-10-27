@@ -1,1 +1,69 @@
 /* start your css here */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 600px;
+  background-color: black;
+  color: white;
+  margin: auto;
+}
+
+.container .head {
+  height: 5vh;
+  padding-left: 20px;
+}
+input[type="text"] {
+  width: 90%;
+  height: 40px;
+  margin: 10px;
+}
+input[type="email"] {
+  width: 90%;
+  height: 40px;
+  margin: 10px;
+}
+.text-boxes {
+  padding: 10px;
+}
+.check {
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.checkbox-size {
+  width: 25px;
+  height: 25px;
+}
+
+.text-boxes .button {
+  text-align: center;
+  padding-top: 30px;
+}
+.text-boxes button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  width: 110px;
+  height: 6vh;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 3px solid white;
+}
+.text-boxes a {
+  color: white;
+}
+
+input[type="date"]::-webkit-datetime-edit-month-field {
+  -webkit-appearance: none;
+  display: none;
+}
+input[type="date"]::-webkit-datetime-edit-day-field {
+  -webkit-appearance: none;
+  display: none;
+}
+input[type="date"]::-webkit-datetime-edit-year-field {
+  -webkit-appearance: none;
+  display: none;
+}
