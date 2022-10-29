@@ -38,6 +38,7 @@ input[type="search"] {
   padding-top: 10px;
 }
 .button button {
+  cursor: pointer;
   background-color: white;
   border: none;
   color: rgb(10, 164, 230);
