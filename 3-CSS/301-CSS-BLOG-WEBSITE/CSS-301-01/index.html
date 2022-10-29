@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -18,109 +20,44 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-
-    <style>
-      .container {
-        width: 400px;
-        height: 92vh;
-        margin: auto;
-        border: 1px solid black;
-        position: relative;
-        background-color: blue;
-      }
-      .main-heading {
-        display: flex;
-        border-bottom: 1px solid black;
-      }
-      .heading {
-        display: flex;
-        height: 6vh;
-        flex-basis: 90%;
-      }
-      .heading .id h6 {
-        margin: 0px 0px 0px 0px;
-      }
-      .heading img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-      }
-      .heading2 {
-        height: 6vh;
-        flex-basis: 10%;
-        text-align: center;
-      }
-
-      .main-img img {
-        border-radius: 10px;
-        margin: 20px;
-        width: 350px;
-        height: 400px;
-      }
-
-      .time {
-        display: flex;
-        border-bottom: 1px solid black;
-      }
-
-      .time i {
-        margin: auto;
-        padding-left: 180px;
-        /* margin: 0px 0px 0px 200px; */
-      }
-
-      .likes {
-        display: flex;
-        justify-content: space-around;
-      }
-      .replies h5 {
-        background-color: bisque;
-        border-radius: 20px;
-        margin: auto;
-        height: 4vh;
-        text-align: center;
-        border: 1px solid black;
-      }
-    </style>
   </head>
   <body>
     <div class="container">
-      <div class="main-heading">
-        <div class="heading">
+      <div class="header">
+        <div class="header-left">
           <img
-            src="https://images.pexels.com/photos/13379800/pexels-photo-13379800.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-            alt=""
+            src="https://images.pexels.com/photos/3964485/pexels-photo-3964485.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="m"
           />
-          <div class="id">
-            <h6>Virat Kohli <i class="fa-brands fa-twitter"></i></h6>
-            <h6>@iamvkohli .<span>Follow</span></h6>
+        </div>
+        <div class="header-right">
+          <i class="fa-solid fa-gear"></i>
+          <i class="fa-solid fa-bell"></i>
+          <button>Upgrade</button>
+          <img
+            src="https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="profile"
+          />
+        </div>
+      </div>
+      <div class="heading">
+        <h2>Topography in design System</h2>
+        <div class="heading-center">
+          <div class="heading-center-rignt">
+            <img src="" alt="p" />
+          </div>
+          <div class="heading-center-left">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-regular fa-bookmark"></i>
+            <i class="fa-solid fa-user"></i>
           </div>
         </div>
-        <div class="heading2">
-          <i class="fa-brands fa-twitter"></i>
-        </div>
       </div>
-
-      <div class="main-img">
-        <img
-          src="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&w=600"
-          alt=""
-        />
-        <div class="time">
-          <h5>5:53 pm june .12 2022</h5>
-          <i class="fa-brands fa-twitter"></i>
-        </div>
-      </div>
-
-      <div class="likes">
-        <h5><i class="fa-brands fa-twitter"></i> 301.1k</h5>
-        <h5><i class="fa-brands fa-twitter"></i> 301.1k</h5>
-        <h5><i class="fa-brands fa-twitter"></i> 301.1k</h5>
-      </div>
-
-      <div class="replies">
-        <h5>Read 5.1K replies</h5>
-      </div>
+      <div class="image"></div>
+      <div class="content"></div>
+      <div class="video"></div>
     </div>
   </body>
 </html>

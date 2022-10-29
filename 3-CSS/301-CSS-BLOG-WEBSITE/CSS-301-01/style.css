@@ -1,1 +1,42 @@
 /* start your css here */
+.container {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid rgb(196, 196, 196);
+}
+.header-right {
+  text-align: center;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.header-right button {
+  width: auto;
+  height: 4vh;
+}
+.header-left img {
+  width: 40px;
+  height: 40px;
+}
+
+.header-right img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.header-right button {
+  background-color: white;
+  color: vlack;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.heading {
+  display: flex;
+  text-align: center;
+}
