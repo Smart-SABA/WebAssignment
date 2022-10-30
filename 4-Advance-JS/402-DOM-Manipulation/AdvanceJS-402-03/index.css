@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: yellow;
+}
+.wrapper {
+  margin: 200px;
+  background-color: aliceblue;
+  width: auto;
+  padding: 50px;
+  border: 9px solid purple;
+  border-radius: 50px;
+}
+
+.wrapper header {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.wrapper .inputfeild {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.inputfeild input {
+  width: 85%;
+  height: 100%;
+  font-size: 15px;
+  border: 5px solid yellow;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+
+.inputfeild button {
+  width: 20%;
+  height: 100%;
+  color: white;
+  background-color: purple;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+.wrapper .todoList {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.todoList li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  height: 50px;
+  line-height: 20px;
+  background-color: wheat;
+  margin-bottom: 9px;
+  padding-top: 20px;
+  cursor: default;
+}
+.todoList li a {
+  text-decoration: none;
+  width: 10%;
+  height: 100%;
+  color: white;
+  background-color: purple;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 5px;
+  text-align: center;
+}
+.wrapper .footer {
+  font-size: 30px;
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+}
