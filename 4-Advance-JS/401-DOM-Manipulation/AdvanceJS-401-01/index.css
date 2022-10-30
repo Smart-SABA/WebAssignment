@@ -1,0 +1,13 @@
+.container {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 80%;
+  height: 30px;
+  margin-top: 40%;
+  border: 2px solid rgb(134, 200, 255);
+}
