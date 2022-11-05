@@ -1,1 +1,36 @@
 /* start your styling here  */
+.container {
+  width: 900px;
+  margin: auto;
+  border: 4px solid black;
+}
+.heading {
+  height: 10%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heading h3 {
+  padding-left: 10px;
+}
+
+.elements {
+  background-color: rgb(178, 178, 178);
+  display: flex;
+  justify-content: space-between;
+}
+
+.elements1 {
+  width: 15%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+}
