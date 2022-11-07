@@ -31,12 +31,79 @@
 }
 
 .header-right button {
-  background-color: white;
-  color: vlack;
+  color: black;
   border: 1px solid black;
   border-radius: 5px;
 }
+
 .heading {
+  /* background-color: blueviolet; */
+}
+.heading-center {
   display: flex;
-  text-align: center;
+  justify-content: space-between;
+}
+.heading-center img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.heading .heading-center .heading-center-left {
+  display: flex;
+}
+.heading-center-right i {
+  padding-left: 20px;
+}
+
+.image {
+  padding-top: 10px;
+}
+.image img {
+  height: 50vh;
+  width: 100%;
+}
+
+.content {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.video {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.buttons button {
+  padding: 10px;
+  background-color: rgb(207, 207, 207);
+  color: black;
+  border: none;
+  border-radius: 10px;
+}
+
+.bottom img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom .bottom-left i {
+  padding-left: 20px;
+}
+
+.footer {
+  padding-left: 30%;
+  padding-right: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
