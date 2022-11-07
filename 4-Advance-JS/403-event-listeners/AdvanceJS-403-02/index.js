@@ -15,7 +15,7 @@ document.addEventListener("keypress", function (e) {
 });
 function makesound(buttontext) {
   if (buttontext == "w") {
-    var tom1 = new Audio("sounds/tom-1.mp3");
+    var tom1 = new Audio("sounds/crash.mp3");
     tom1.play();
   }
   if (buttontext == "a") {
@@ -35,11 +35,11 @@ function makesound(buttontext) {
     snare.play();
   }
   if (buttontext == "k") {
-    var kick = new Audio("sounds/kick-bass.mp3");
+    var kick = new Audio("sounds/tom-1.mp3");
     kick.play();
   }
   if (buttontext == "l") {
-    var crash = new Audio("sounds/crash.mp3");
+    var crash = new Audio("sounds/kick-bass.mp3");
     crash.play();
   }
 }
