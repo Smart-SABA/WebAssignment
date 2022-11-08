@@ -1,0 +1,22 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+}
+body {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+tr {
+  padding-top: 10px;
+  font-size: 30px;
+}
+td {
+  padding: 10px;
+  border-top: 1px solid rgb(114, 114, 114);
+}
+
+.container h1 {
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
